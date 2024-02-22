@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# this script displays Best School 10 times, but for the 9th hi
+
+a=10
+while [ $a -lt 20 ];
+do
+	if [ $a -eq 19 ];
+	then
+		echo "Hi"
+	fi
+	echo "Best School"
+	((  a++ ))
+done
