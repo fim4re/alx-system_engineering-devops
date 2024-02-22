@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times using until
+
+a=10
+until [ $a -gt 20 ]; 
+do
+    echo "Best School"
+    (( a++ ))
+done
