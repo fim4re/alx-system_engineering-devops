@@ -3,13 +3,13 @@
 
 for a in {1..100}
 do
-  if (( a % 5 ))
+  if (( a % 3 && a % 5 == 0 ))
   then
-    echo "Buzz"
+    echo "FizzBuzz"
   elif (( a % 3 == 0 ))
   then
     echo "Fizz"
-  elif (( a % 3 == 0 && a % 5 == 0 ))
+  elif (( a % 5 == 0 ))
   then
     echo "FizzBuzz"
   else
