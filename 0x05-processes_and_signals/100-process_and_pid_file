@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# script that:Creates the file /var/run/myscript.pid containing its PID
+
+c='rm /var/run/myscript.pid; exit $?'
+
+echo $$ > "/var/run/myscript.pid"
