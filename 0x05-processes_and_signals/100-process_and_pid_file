@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script that:Creates the file /var/run/myscript.pid containing its PID
 
-terr()
+terminator()
 {
 
   rm /var/run/myscript.pid
