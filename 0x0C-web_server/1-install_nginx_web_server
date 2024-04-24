@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Configures a new ubuntu machine
+# Configures a new ubuntu machine2
 # Nginx where it should be listening on port 80
 # Serve a page that return a Hello World
 #
