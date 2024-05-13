@@ -1,3 +1,4 @@
+#
 echo -e "Installing UFW\n"
 
 sudo apt-get install -y ufw
