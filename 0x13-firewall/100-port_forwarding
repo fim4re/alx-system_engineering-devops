@@ -1,4 +1,11 @@
 #
+<<<<<<< HEAD
+=======
+# /etc/ufw/before.rules
+#
+# rules.before
+#
+>>>>>>> d60ec8a25ff0bdc2446fe1fa6292ef6c197c3e8d
 # Rules that should be run before the ufw command line added rules. Custom
 # rules should be added to one of these chains:
 #   ufw-before-input
@@ -14,7 +21,11 @@
 :ufw-not-local - [0:0]
 # End required lines
 
+<<<<<<< HEAD
 # Allow port forwarding
+=======
+# Allow port forwarding from port 8080/TCP to port 80/TCP
+>>>>>>> d60ec8a25ff0bdc2446fe1fa6292ef6c197c3e8d
 *nat
 :PREROUTING ACCEPT [0:0]
 -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
