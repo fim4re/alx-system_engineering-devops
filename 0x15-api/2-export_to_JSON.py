@@ -5,7 +5,7 @@ import requests
 import sys
 
 if __name__ == "__main__":
-     # Get the employee ID from the command-line
+    # Get the employee ID from the command-line
     user_id = sys.argv[1]
     # Base URL for the JSONPlaceholder API
     url = "https://jsonplaceholder.typicode.com/"
